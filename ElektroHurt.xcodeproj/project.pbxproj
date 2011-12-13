@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0789A9201497E3C000EC8C78 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0789A91F1497E3C000EC8C78 /* UIKit.framework */; };
+		0789A9221497E3C000EC8C78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0789A9211497E3C000EC8C78 /* Foundation.framework */; };
+		0789A9241497E3C000EC8C78 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0789A9231497E3C000EC8C78 /* CoreGraphics.framework */; };
+		0789A92A1497E3C000EC8C78 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0789A9281497E3C000EC8C78 /* InfoPlist.strings */; };
+		0789A92C1497E3C000EC8C78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0789A92B1497E3C000EC8C78 /* main.m */; };
+		0789A9301497E3C000EC8C78 /* EHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0789A92F1497E3C000EC8C78 /* EHAppDelegate.m */; };
+		0789A9331497E3C000EC8C78 /* EHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0789A9321497E3C000EC8C78 /* EHViewController.m */; };
+		0789A9361497E3C000EC8C78 /* EHViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0789A9341497E3C000EC8C78 /* EHViewController.xib */; };
+		0789A93E1497E3C000EC8C78 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0789A93D1497E3C000EC8C78 /* SenTestingKit.framework */; };
+		0789A93F1497E3C000EC8C78 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0789A91F1497E3C000EC8C78 /* UIKit.framework */; };
+		0789A9401497E3C000EC8C78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0789A9211497E3C000EC8C78 /* Foundation.framework */; };
+		0789A9481497E3C000EC8C78 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0789A9461497E3C000EC8C78 /* InfoPlist.strings */; };
+		0789A94B1497E3C100EC8C78 /* ElektroHurtTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0789A94A1497E3C100EC8C78 /* ElektroHurtTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0789A9411497E3C000EC8C78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0789A9121497E3BF00EC8C78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0789A91A1497E3C000EC8C78;
+			remoteInfo = ElektroHurt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0789A91B1497E3C000EC8C78 /* ElektroHurt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElektroHurt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0789A91F1497E3C000EC8C78 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0789A9211497E3C000EC8C78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0789A9231497E3C000EC8C78 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0789A9271497E3C000EC8C78 /* ElektroHurt-Info.plist */ = {isa = PBXFileReference; path = "ElektroHurt-Info.plist"; sourceTree = "<group>"; };
+		0789A9291497E3C000EC8C78 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0789A92B1497E3C000EC8C78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0789A92D1497E3C000EC8C78 /* ElektroHurt-Prefix.pch */ = {isa = PBXFileReference; path = "ElektroHurt-Prefix.pch"; sourceTree = "<group>"; };
+		0789A92E1497E3C000EC8C78 /* EHAppDelegate.h */ = {isa = PBXFileReference; path = EHAppDelegate.h; sourceTree = "<group>"; };
+		0789A92F1497E3C000EC8C78 /* EHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EHAppDelegate.m; sourceTree = "<group>"; };
+		0789A9311497E3C000EC8C78 /* EHViewController.h */ = {isa = PBXFileReference; path = EHViewController.h; sourceTree = "<group>"; };
+		0789A9321497E3C000EC8C78 /* EHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EHViewController.m; sourceTree = "<group>"; };
+		0789A9351497E3C000EC8C78 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/EHViewController.xib; sourceTree = "<group>"; };
+		0789A93C1497E3C000EC8C78 /* ElektroHurtTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElektroHurtTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0789A93D1497E3C000EC8C78 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		0789A9451497E3C000EC8C78 /* ElektroHurtTests-Info.plist */ = {isa = PBXFileReference; path = "ElektroHurtTests-Info.plist"; sourceTree = "<group>"; };
+		0789A9471497E3C000EC8C78 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0789A9491497E3C000EC8C78 /* ElektroHurtTests.h */ = {isa = PBXFileReference; path = ElektroHurtTests.h; sourceTree = "<group>"; };
+		0789A94A1497E3C100EC8C78 /* ElektroHurtTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElektroHurtTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0789A9181497E3C000EC8C78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0789A9201497E3C000EC8C78 /* UIKit.framework in Frameworks */,
+				0789A9221497E3C000EC8C78 /* Foundation.framework in Frameworks */,
+				0789A9241497E3C000EC8C78 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0789A9381497E3C000EC8C78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0789A93E1497E3C000EC8C78 /* SenTestingKit.framework in Frameworks */,
+				0789A93F1497E3C000EC8C78 /* UIKit.framework in Frameworks */,
+				0789A9401497E3C000EC8C78 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0789A9101497E3BF00EC8C78 = {
+			isa = PBXGroup;
+			children = (
+				0789A9251497E3C000EC8C78 /* ElektroHurt */,
+				0789A9431497E3C000EC8C78 /* ElektroHurtTests */,
+				0789A91E1497E3C000EC8C78 /* Frameworks */,
+				0789A91C1497E3C000EC8C78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0789A91C1497E3C000EC8C78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0789A91B1497E3C000EC8C78 /* ElektroHurt.app */,
+				0789A93C1497E3C000EC8C78 /* ElektroHurtTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0789A91E1497E3C000EC8C78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0789A91F1497E3C000EC8C78 /* UIKit.framework */,
+				0789A9211497E3C000EC8C78 /* Foundation.framework */,
+				0789A9231497E3C000EC8C78 /* CoreGraphics.framework */,
+				0789A93D1497E3C000EC8C78 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0789A9251497E3C000EC8C78 /* ElektroHurt */ = {
+			isa = PBXGroup;
+			children = (
+				0789A92E1497E3C000EC8C78 /* EHAppDelegate.h */,
+				0789A92F1497E3C000EC8C78 /* EHAppDelegate.m */,
+				0789A9311497E3C000EC8C78 /* EHViewController.h */,
+				0789A9321497E3C000EC8C78 /* EHViewController.m */,
+				0789A9341497E3C000EC8C78 /* EHViewController.xib */,
+				0789A9261497E3C000EC8C78 /* Supporting Files */,
+			);
+			path = ElektroHurt;
+			sourceTree = "<group>";
+		};
+		0789A9261497E3C000EC8C78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0789A9271497E3C000EC8C78 /* ElektroHurt-Info.plist */,
+				0789A9281497E3C000EC8C78 /* InfoPlist.strings */,
+				0789A92B1497E3C000EC8C78 /* main.m */,
+				0789A92D1497E3C000EC8C78 /* ElektroHurt-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0789A9431497E3C000EC8C78 /* ElektroHurtTests */ = {
+			isa = PBXGroup;
+			children = (
+				0789A9491497E3C000EC8C78 /* ElektroHurtTests.h */,
+				0789A94A1497E3C100EC8C78 /* ElektroHurtTests.m */,
+				0789A9441497E3C000EC8C78 /* Supporting Files */,
+			);
+			path = ElektroHurtTests;
+			sourceTree = "<group>";
+		};
+		0789A9441497E3C000EC8C78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0789A9451497E3C000EC8C78 /* ElektroHurtTests-Info.plist */,
+				0789A9461497E3C000EC8C78 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0789A91A1497E3C000EC8C78 /* ElektroHurt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0789A94E1497E3C100EC8C78 /* Build configuration list for PBXNativeTarget "ElektroHurt" */;
+			buildPhases = (
+				0789A9171497E3C000EC8C78 /* Sources */,
+				0789A9181497E3C000EC8C78 /* Frameworks */,
+				0789A9191497E3C000EC8C78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ElektroHurt;
+			productName = ElektroHurt;
+			productReference = 0789A91B1497E3C000EC8C78 /* ElektroHurt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0789A93B1497E3C000EC8C78 /* ElektroHurtTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0789A9511497E3C100EC8C78 /* Build configuration list for PBXNativeTarget "ElektroHurtTests" */;
+			buildPhases = (
+				0789A9371497E3C000EC8C78 /* Sources */,
+				0789A9381497E3C000EC8C78 /* Frameworks */,
+				0789A9391497E3C000EC8C78 /* Resources */,
+				0789A93A1497E3C000EC8C78 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0789A9421497E3C000EC8C78 /* PBXTargetDependency */,
+			);
+			name = ElektroHurtTests;
+			productName = ElektroHurtTests;
+			productReference = 0789A93C1497E3C000EC8C78 /* ElektroHurtTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0789A9121497E3BF00EC8C78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 0789A9151497E3BF00EC8C78 /* Build configuration list for PBXProject "ElektroHurt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0789A9101497E3BF00EC8C78;
+			productRefGroup = 0789A91C1497E3C000EC8C78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0789A91A1497E3C000EC8C78 /* ElektroHurt */,
+				0789A93B1497E3C000EC8C78 /* ElektroHurtTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0789A9191497E3C000EC8C78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0789A92A1497E3C000EC8C78 /* InfoPlist.strings in Resources */,
+				0789A9361497E3C000EC8C78 /* EHViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0789A9391497E3C000EC8C78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0789A9481497E3C000EC8C78 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0789A93A1497E3C000EC8C78 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0789A9171497E3C000EC8C78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0789A92C1497E3C000EC8C78 /* main.m in Sources */,
+				0789A9301497E3C000EC8C78 /* EHAppDelegate.m in Sources */,
+				0789A9331497E3C000EC8C78 /* EHViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0789A9371497E3C000EC8C78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0789A94B1497E3C100EC8C78 /* ElektroHurtTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0789A9421497E3C000EC8C78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0789A91A1497E3C000EC8C78 /* ElektroHurt */;
+			targetProxy = 0789A9411497E3C000EC8C78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0789A9281497E3C000EC8C78 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0789A9291497E3C000EC8C78 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0789A9341497E3C000EC8C78 /* EHViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0789A9351497E3C000EC8C78 /* en */,
+			);
+			name = EHViewController.xib;
+			sourceTree = "<group>";
+		};
+		0789A9461497E3C000EC8C78 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0789A9471497E3C000EC8C78 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0789A94C1497E3C100EC8C78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0789A94D1497E3C100EC8C78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0789A94F1497E3C100EC8C78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ElektroHurt/ElektroHurt-Prefix.pch";
+				INFOPLIST_FILE = "ElektroHurt/ElektroHurt-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0789A9501497E3C100EC8C78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ElektroHurt/ElektroHurt-Prefix.pch";
+				INFOPLIST_FILE = "ElektroHurt/ElektroHurt-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0789A9521497E3C100EC8C78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ElektroHurt.app/ElektroHurt";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ElektroHurt/ElektroHurt-Prefix.pch";
+				INFOPLIST_FILE = "ElektroHurtTests/ElektroHurtTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		0789A9531497E3C100EC8C78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ElektroHurt.app/ElektroHurt";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ElektroHurt/ElektroHurt-Prefix.pch";
+				INFOPLIST_FILE = "ElektroHurtTests/ElektroHurtTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0789A9151497E3BF00EC8C78 /* Build configuration list for PBXProject "ElektroHurt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0789A94C1497E3C100EC8C78 /* Debug */,
+				0789A94D1497E3C100EC8C78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0789A94E1497E3C100EC8C78 /* Build configuration list for PBXNativeTarget "ElektroHurt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0789A94F1497E3C100EC8C78 /* Debug */,
+				0789A9501497E3C100EC8C78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0789A9511497E3C100EC8C78 /* Build configuration list for PBXNativeTarget "ElektroHurtTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0789A9521497E3C100EC8C78 /* Debug */,
+				0789A9531497E3C100EC8C78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0789A9121497E3BF00EC8C78 /* Project object */;
+}
