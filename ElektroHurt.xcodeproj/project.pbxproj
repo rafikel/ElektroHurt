@@ -20,6 +20,13 @@
 		0789A9401497E3C000EC8C78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0789A9211497E3C000EC8C78 /* Foundation.framework */; };
 		0789A9481497E3C000EC8C78 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0789A9461497E3C000EC8C78 /* InfoPlist.strings */; };
 		0789A94B1497E3C100EC8C78 /* ElektroHurtTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0789A94A1497E3C100EC8C78 /* ElektroHurtTests.m */; };
+		0789A9551497E59500EC8C78 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0789A9541497E59500EC8C78 /* Icon.png */; };
+		0789A9571497E5A700EC8C78 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0789A9561497E5A700EC8C78 /* Icon@2x.png */; };
+		0789A9831498D57300EC8C78 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 0789A97E1498D57300EC8C78 /* TFHpple.m */; };
+		0789A9841498D57300EC8C78 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 0789A9801498D57300EC8C78 /* TFHppleElement.m */; };
+		0789A9851498D57300EC8C78 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 0789A9821498D57300EC8C78 /* XPathQuery.m */; };
+		0789A98E1498F12500EC8C78 /* StackMessages.m in Sources */ = {isa = PBXBuildFile; fileRef = 0789A98D1498F12500EC8C78 /* StackMessages.m */; };
+		0789A9DF14991FE100EC8C78 /* AsyncImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0789A9DE14991FE100EC8C78 /* AsyncImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +44,33 @@
 		0789A91F1497E3C000EC8C78 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0789A9211497E3C000EC8C78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0789A9231497E3C000EC8C78 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		0789A9271497E3C000EC8C78 /* ElektroHurt-Info.plist */ = {isa = PBXFileReference; path = "ElektroHurt-Info.plist"; sourceTree = "<group>"; };
+		0789A9271497E3C000EC8C78 /* ElektroHurt-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ElektroHurt-Info.plist"; sourceTree = "<group>"; };
 		0789A9291497E3C000EC8C78 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0789A92B1497E3C000EC8C78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0789A92D1497E3C000EC8C78 /* ElektroHurt-Prefix.pch */ = {isa = PBXFileReference; path = "ElektroHurt-Prefix.pch"; sourceTree = "<group>"; };
-		0789A92E1497E3C000EC8C78 /* EHAppDelegate.h */ = {isa = PBXFileReference; path = EHAppDelegate.h; sourceTree = "<group>"; };
+		0789A92D1497E3C000EC8C78 /* ElektroHurt-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ElektroHurt-Prefix.pch"; sourceTree = "<group>"; };
+		0789A92E1497E3C000EC8C78 /* EHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EHAppDelegate.h; sourceTree = "<group>"; };
 		0789A92F1497E3C000EC8C78 /* EHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EHAppDelegate.m; sourceTree = "<group>"; };
-		0789A9311497E3C000EC8C78 /* EHViewController.h */ = {isa = PBXFileReference; path = EHViewController.h; sourceTree = "<group>"; };
+		0789A9311497E3C000EC8C78 /* EHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EHViewController.h; sourceTree = "<group>"; };
 		0789A9321497E3C000EC8C78 /* EHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EHViewController.m; sourceTree = "<group>"; };
 		0789A9351497E3C000EC8C78 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/EHViewController.xib; sourceTree = "<group>"; };
 		0789A93C1497E3C000EC8C78 /* ElektroHurtTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElektroHurtTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0789A93D1497E3C000EC8C78 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		0789A9451497E3C000EC8C78 /* ElektroHurtTests-Info.plist */ = {isa = PBXFileReference; path = "ElektroHurtTests-Info.plist"; sourceTree = "<group>"; };
+		0789A9451497E3C000EC8C78 /* ElektroHurtTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ElektroHurtTests-Info.plist"; sourceTree = "<group>"; };
 		0789A9471497E3C000EC8C78 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		0789A9491497E3C000EC8C78 /* ElektroHurtTests.h */ = {isa = PBXFileReference; path = ElektroHurtTests.h; sourceTree = "<group>"; };
+		0789A9491497E3C000EC8C78 /* ElektroHurtTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ElektroHurtTests.h; sourceTree = "<group>"; };
 		0789A94A1497E3C100EC8C78 /* ElektroHurtTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElektroHurtTests.m; sourceTree = "<group>"; };
+		0789A9541497E59500EC8C78 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		0789A9561497E5A700EC8C78 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		0789A97D1498D57300EC8C78 /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		0789A97E1498D57300EC8C78 /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		0789A97F1498D57300EC8C78 /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		0789A9801498D57300EC8C78 /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		0789A9811498D57300EC8C78 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		0789A9821498D57300EC8C78 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		0789A98C1498F12500EC8C78 /* StackMessages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackMessages.h; sourceTree = "<group>"; };
+		0789A98D1498F12500EC8C78 /* StackMessages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackMessages.m; sourceTree = "<group>"; };
+		0789A9DD14991FE000EC8C78 /* AsyncImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncImageView.h; sourceTree = "<group>"; };
+		0789A9DE14991FE100EC8C78 /* AsyncImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +100,8 @@
 		0789A9101497E3BF00EC8C78 = {
 			isa = PBXGroup;
 			children = (
+				0789A9561497E5A700EC8C78 /* Icon@2x.png */,
+				0789A9541497E59500EC8C78 /* Icon.png */,
 				0789A9251497E3C000EC8C78 /* ElektroHurt */,
 				0789A9431497E3C000EC8C78 /* ElektroHurtTests */,
 				0789A91E1497E3C000EC8C78 /* Frameworks */,
@@ -111,6 +132,16 @@
 		0789A9251497E3C000EC8C78 /* ElektroHurt */ = {
 			isa = PBXGroup;
 			children = (
+				0789A9DD14991FE000EC8C78 /* AsyncImageView.h */,
+				0789A9DE14991FE100EC8C78 /* AsyncImageView.m */,
+				0789A98C1498F12500EC8C78 /* StackMessages.h */,
+				0789A98D1498F12500EC8C78 /* StackMessages.m */,
+				0789A97D1498D57300EC8C78 /* TFHpple.h */,
+				0789A97E1498D57300EC8C78 /* TFHpple.m */,
+				0789A97F1498D57300EC8C78 /* TFHppleElement.h */,
+				0789A9801498D57300EC8C78 /* TFHppleElement.m */,
+				0789A9811498D57300EC8C78 /* XPathQuery.h */,
+				0789A9821498D57300EC8C78 /* XPathQuery.m */,
 				0789A92E1497E3C000EC8C78 /* EHAppDelegate.h */,
 				0789A92F1497E3C000EC8C78 /* EHAppDelegate.m */,
 				0789A9311497E3C000EC8C78 /* EHViewController.h */,
@@ -223,6 +254,8 @@
 			files = (
 				0789A92A1497E3C000EC8C78 /* InfoPlist.strings in Resources */,
 				0789A9361497E3C000EC8C78 /* EHViewController.xib in Resources */,
+				0789A9551497E59500EC8C78 /* Icon.png in Resources */,
+				0789A9571497E5A700EC8C78 /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +293,11 @@
 				0789A92C1497E3C000EC8C78 /* main.m in Sources */,
 				0789A9301497E3C000EC8C78 /* EHAppDelegate.m in Sources */,
 				0789A9331497E3C000EC8C78 /* EHViewController.m in Sources */,
+				0789A9831498D57300EC8C78 /* TFHpple.m in Sources */,
+				0789A9841498D57300EC8C78 /* TFHppleElement.m in Sources */,
+				0789A9851498D57300EC8C78 /* XPathQuery.m in Sources */,
+				0789A98E1498F12500EC8C78 /* StackMessages.m in Sources */,
+				0789A9DF14991FE100EC8C78 /* AsyncImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +353,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -330,6 +369,8 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -340,6 +381,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -349,6 +391,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -357,10 +401,18 @@
 		0789A94F1497E3C100EC8C78 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ElektroHurt/ElektroHurt-Prefix.pch";
+				"HEADER_SEARCH_PATHS[arch=*]" = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = "ElektroHurt/ElektroHurt-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				"OTHER_LDFLAGS[arch=*]" = "-lxml2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -368,10 +420,18 @@
 		0789A9501497E3C100EC8C78 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ElektroHurt/ElektroHurt-Prefix.pch";
+				"HEADER_SEARCH_PATHS[arch=*]" = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = "ElektroHurt/ElektroHurt-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				"OTHER_LDFLAGS[arch=*]" = "-lxml2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -429,6 +489,7 @@
 				0789A9501497E3C100EC8C78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0789A9511497E3C100EC8C78 /* Build configuration list for PBXNativeTarget "ElektroHurtTests" */ = {
 			isa = XCConfigurationList;
@@ -437,6 +498,7 @@
 				0789A9531497E3C100EC8C78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
